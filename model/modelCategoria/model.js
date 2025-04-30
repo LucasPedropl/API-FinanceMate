@@ -28,7 +28,7 @@ const Categoria = database.define(
 				model: Usuario,
 				key: 'id',
 			},
-			allowNull: false,
+			allowNull: true,
 		},
 	},
 	{

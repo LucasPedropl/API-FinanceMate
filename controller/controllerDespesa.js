@@ -1,6 +1,6 @@
 const Despesa = require('../model/modelDespesa/model');
 
-modulee.exports = class DespesaController {
+module.exports = class DespesaController {
 	//CREATE
 	static async DespesaCreate(req, res) {
 		const { descricao, valor, data, tipo, categoriaId } = req.body;
